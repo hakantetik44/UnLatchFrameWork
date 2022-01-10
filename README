@@ -5,6 +5,14 @@
 *J'ai créé 3 fonctionnalités différentes dans le projet et ajouté les étapes nécessaires au fichier de fonctionnalités.
 
 
+1) Agile est dynamique car il prend les commentaires des clients et
+S'il y a de nouveaux ajouts, c'est-à-dire de nouvelles fonctionnalités, sur lesquels travailler, Agile est ouvert à tout ceux que nous ajouterons à l'application.
+Agile peut être mis à jour.
+En Agile, nous pouvons tester la santé de l'application à chaque étape.
+Agile s'adapte plus facilement aux changements.
+
+=> Avec la méthodologie Agile, nous avons des spritns entre 2 et 4 semaines. Ces sprints commencent par *Sprint planing*. Dans ce sprint, les us storys  dans le backlog de sprint sont notées avec la méthode de Fibonacci et notées avec le JoKer  Pointeur sur google et us storys sont partagés. La réunion *Sprint Grooming* est organisée conformément aux exigences avant la Sprint planing. Dans ce sprint, l'analyse des données et des questions sont posées. Cela se fait parfois une fois, parfois deux fois, selon la nécessité. Le sprint commence par la Sprint planing. Chaque matin devient *Daily Scrum*. Lors de cette réunion, nous parlons de ce que nous avons fait hier et de ce que nous allons faire aujourd'hui Avons-nous rencontré des problèmes (empêchement ou bloqueur) ? Vers la fin du sprint, une présentation de démonstration est faite aux autorités de l'entreprise *Sprint Review*. Le testeur QA joue un rôle actif. Les StakeHolder participent également.
+*Sprint Retro* est fait en dernier. Une évaluation générale est faite. Les avantages et les inconvénients sont discutés. En termes de faire la lumière sur le prochain sprint.
 
 
 Test Strategy
