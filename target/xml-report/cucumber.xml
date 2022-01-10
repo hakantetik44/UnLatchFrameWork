@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="54.935">
+    <testcase classname="Module Test" name="Faire le test des modules" time="18.555">
+        <system-out>
+            <![CDATA[Given L'utilisateur accède à la page........................................passed
+And L'utilisateur clique sur bouton connexion...............................passed
+And L'utilisateur saisit ladresse email.....................................passed
+And L'utilisateur saisit  password..........................................passed
+And L'utilisateur appuie sur le bouton de connexion.........................passed
+Then L'utilisateur clique les boutons entreprise,travail,immobilier,famille,Mon compte et verify button.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Module Test" name="Faire un test Document Jurdique" time="18.073">
+        <system-out>
+            <![CDATA[Given L'utilisateur accède à la page........................................passed
+And L'utilisateur clique sur bouton connexion...............................passed
+And L'utilisateur saisit ladresse email.....................................passed
+And L'utilisateur saisit  password..........................................passed
+And L'utilisateur appuie sur le bouton de connexion.........................passed
+And clique button Legalife..................................................passed
+And Consultez la section ce que disent nos clients..........................passed
+Then verify la page de que disent nos clients...............................passed
+And fermer la page..........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Test" name="Faire un test de connexion" time="10.779">
+        <system-out>
+            <![CDATA[Given L'utilisateur accède à la page........................................passed
+And L'utilisateur clique sur bouton connexion...............................passed
+And L'utilisateur saisit ladresse email.....................................passed
+And L'utilisateur saisit  password..........................................passed
+Then L'utilisateur appuie sur le bouton de connexion........................passed
+And L'utilisateur verify Vous êtes connecté. Cette page va se rafraichir....passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Test" name="Faire un NegatifTest" time="7.327">
+        <system-out>
+            <![CDATA[Given L'utilisateur accède à la page........................................passed
+And L'utilisateur clique sur bouton connexion...............................passed
+And L'utilisateur saisit ladresse email.....................................passed
+And L'utilisateur saisit  invalidPassword...................................passed
+Then L'utilisateur appuie sur le bouton de connexion........................passed
+And L'utilisateur verify Mot de passe incorrect.............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,462 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-09T22:05:15.014Z",
+        "line": 4,
+        "name": "Faire le test des modules",
+        "description": "",
+        "id": "module-test;faire-le-test-des-modules",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6031436400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "L\u0027utilisateur accède à la page",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurAccèdeÀLaPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1812265300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "L\u0027utilisateur clique sur bouton connexion",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurCliqueSurBoutonConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143292300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "L\u0027utilisateur saisit ladresse email",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurSaisitLadresseEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88353100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "L\u0027utilisateur saisit  password",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurSaisitPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1117019200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "L\u0027utilisateur appuie sur le bouton de connexion",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurAppuieSurLeBoutonDeConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9274205100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "L\u0027utilisateur clique les boutons entreprise,travail,immobilier,famille,Mon compte et verify button",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurCliqueLesBoutonsEntrepriseTravailImmobilierFamilleMonCompteEtVerifyButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel1"
+          },
+          {
+            "name": "@clienTest"
+          }
+        ]
+      }
+    ],
+    "name": "Module Test",
+    "description": "",
+    "id": "module-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Clients.feature",
+    "tags": [
+      {
+        "name": "@Paralel1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-09T22:05:33.569Z",
+        "line": 4,
+        "name": "Faire un test Document Jurdique",
+        "description": "",
+        "id": "module-test;faire-un-test-document-jurdique",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4491927300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "L\u0027utilisateur accède à la page",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurAccèdeÀLaPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2043921000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "L\u0027utilisateur clique sur bouton connexion",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurCliqueSurBoutonConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90919200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "L\u0027utilisateur saisit ladresse email",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurSaisitLadresseEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82737500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "L\u0027utilisateur saisit  password",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurSaisitPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1097147400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "L\u0027utilisateur appuie sur le bouton de connexion",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurAppuieSurLeBoutonDeConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6357606500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clique button Legalife",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.cliqueButtonLegalife()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64828200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Consultez la section ce que disent nos clients",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.consultezLaSectionCeQueDisentNosClients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57842400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify la page de que disent nos clients",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.verifyLaPageDeQueDisentNosClients()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3768248000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "fermer la page",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.fermerLaPage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          },
+          {
+            "name": "@DocumentJurdique"
+          }
+        ]
+      }
+    ],
+    "name": "Module Test",
+    "description": "",
+    "id": "module-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DocumentJurdique.feature",
+    "tags": [
+      {
+        "name": "@Paralel2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-09T22:05:51.648Z",
+        "line": 6,
+        "name": "Faire un test de connexion",
+        "description": "",
+        "id": "login-test;faire-un-test-de-connexion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4819484400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "L\u0027utilisateur accède à la page",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurAccèdeÀLaPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1879197300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "L\u0027utilisateur clique sur bouton connexion",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurCliqueSurBoutonConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102152400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "L\u0027utilisateur saisit ladresse email",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurSaisitLadresseEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74599900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "L\u0027utilisateur saisit  password",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurSaisitPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1107325000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "L\u0027utilisateur appuie sur le bouton de connexion",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurAppuieSurLeBoutonDeConnexion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2789382200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "L\u0027utilisateur verify Vous êtes connecté. Cette page va se rafraichir.",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurVerifyVousÊtesConnectéCettePageVaSeRafraichir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@paralel1"
+          },
+          {
+            "name": "@PozitifTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-09T22:06:02.432Z",
+        "line": 15,
+        "name": "Faire un NegatifTest",
+        "description": "",
+        "id": "login-test;faire-un-negatiftest",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4262003300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "L\u0027utilisateur accède à la page",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurAccèdeÀLaPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1762852000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "L\u0027utilisateur clique sur bouton connexion",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurCliqueSurBoutonConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90516700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "L\u0027utilisateur saisit ladresse email",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurSaisitLadresseEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78477000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "L\u0027utilisateur saisit  invalidPassword",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurSaisitInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1088851800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "L\u0027utilisateur appuie sur le bouton de connexion",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurAppuieSurLeBoutonDeConnexion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43457300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "L\u0027utilisateur verify Mot de passe incorrect.",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.lUtilisateurVerifyMotDePasseIncorrect()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@paralel1"
+          },
+          {
+            "name": "@NegatifTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@paralel1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
