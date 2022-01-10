@@ -3,3 +3,49 @@
 *J'ai fait des tests en parallèle.
 *J'ai utilisé le concept oop en java avec projet.
 *J'ai créé 3 fonctionnalités différentes dans le projet et ajouté les étapes nécessaires au fichier de fonctionnalités.
+
+
+
+
+Test Strategy
+
+
+Objectives
+1-Page de connexion testée et test positif et négatif vérifié
+2- Des tests de page de connexion positifs et négatifs ont été effectués.
+3- La satisfaction client en bas de page a été vérifiée.
+4- Les modules dans la section Navbar en haut de la page a vérifié
+
+
+
+Scope
+
+1.	J'ai utilisé du Cucumber.
+2.	J'ai fait des tests en parallèle.
+3.	Après avoir créé mon framework, j'ai ajouté les classes nécessaires après avoir créé les pages nécessaires.
+4.	J'ai obtenu les dépendances requises pour pom.xml à partir de la page de  repository maven.
+5.	J'ai ajouté les classes nécessaires  que le runners à la page des utilities.
+
+
+Environnement de test
+
+1-J'ai utilisé le système d'exploitation Windows.
+2-j'ai travaillé avec java jdk 11.0
+3-Intellij idea
+
+Outils de test
+
+1-	Comme je n'ai pas fait de tests de performances ou autres, je ne peux pas vous dire si c'est open source ou commercial.
+
+Risk Analysis
+
+
+1-Le site doit être soigneusement examiné pour les risques. Étant donné que ce site est un site de démarrage, il y avait des risques dans de nombreuses parties.
+
+2-Par exemple, lorsque vous avez essayé d'effectuer une transaction et que vous avez été interrompu, il l'a ajoutée au panier.
+
+
+
+
+
+
